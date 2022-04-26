@@ -1,0 +1,23 @@
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+input {
+  border: 1px solid #ff4955;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+::-webkit-input-placeholder{
+    color: #ff4955;
+    font-size: 16px;
+    font-weight: 500;
+}
